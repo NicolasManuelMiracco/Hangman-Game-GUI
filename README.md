@@ -1,2 +1,5 @@
 # Hangman-Game-GUI
-A Python-based GUI application for playing Hangman, using Tkinter for user interaction and game management.
+
+One-line description: A Python-based GUI application for playing Hangman, using Tkinter for user interaction and game management.
+
+Summary: This Python script creates a Hangman game where players guess letters to reveal a randomly selected word from a predefined list. The game initializes with a randomly chosen word and displays underscores for each letter. The player has six attempts to guess the word correctly. Each guess is processed through a Tkinter GUI, which includes an entry for letter input, a button to submit guesses, and labels to display the current state of the word and the number of tries left. The script checks for valid input (letters only) and prevents repeat guesses. Correct guesses reveal the respective letters in the word, while incorrect guesses decrement the available tries. The game ends either when the player guesses the word correctly or exhausts all tries, with appropriate messages displayed for both outcomes. This example showcases how to integrate basic game logic into a GUI application using Python's Tkinter module.
